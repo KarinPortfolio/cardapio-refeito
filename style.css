@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9e8bd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #523a01;
+}
+
+nav {
+  margin: 1em;
+  background-color: #fbd269;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 1em;
+}
+
+main {
+  width: auto;
+  padding: 2rem;
+}
+
+.caixa-grande {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.caixa-media {
+  position: relative;
+  width: 50%;
+}
+
+.caixa-pequena {
+  border-left: 1px dotted brown;
+  border-bottom: 1px solid brown;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.caixa-centro {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-centro-mini {
+  width: 50vw;
+}
+
+a:link {
+  color: #ab7d12;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f9e8bd;
+  background-color: #f9e8bd86;
+}
+
+a:visited {
+  color: #755407;
+  text-decoration: none;
+}
+
+#prod-foto {
+  width: 60%;
+  height: 70%;
+  margin: 1rem;
+  border-radius: 1em;
+}
+
+.bolinha {
+  height: 15rem;
+  margin: 2rem;
+  border-radius: 10em;
+}
+
+footer {
+  position: block;
+  float: left;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  font-size: small;
+
+}
